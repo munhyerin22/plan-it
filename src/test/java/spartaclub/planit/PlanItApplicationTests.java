@@ -1,4 +1,4 @@
-package spartaclub.planit.api;
+package spartaclub.planit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
