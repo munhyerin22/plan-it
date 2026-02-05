@@ -47,9 +47,10 @@ public class Schedule {
     }
 
     // 수정용
-    public void update(String title, String name) {
+    public void update(String title, String name, String password) {
         this.title = title;
         this.name = name;
+        this.password = password;
     }
 }
 

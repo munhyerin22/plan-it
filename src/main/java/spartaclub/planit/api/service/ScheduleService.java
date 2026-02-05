@@ -43,7 +43,7 @@ public class ScheduleService {
     @Transactional
     public ScheduleResponseDto update(Long id, ScheduleRequestDto request) {
         Schedule schedule = findAndVerify(id, request.password());
-        schedule.update(request.title(), request.name());
+        schedule.update(request.title(), request.name(), request.password());
         return new ScheduleResponseDto(schedule.getId(), schedule.getTitle(), schedule.getContent(), schedule.getName(), schedule.getCreatedAt(), schedule.getUpdatedAt());
     }
 
