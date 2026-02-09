@@ -31,7 +31,6 @@
 ---
 
 ## 4. ERD
-> 일정 1개 : 댓글 N개
 
 ```mermaid
 erDiagram
