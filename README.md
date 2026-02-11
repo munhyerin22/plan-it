@@ -39,7 +39,7 @@ erDiagram
         BIGINT id PK
         VARCHAR title
         VARCHAR content
-        VARCHAR author_name
+        VARCHAR name
         VARCHAR password
         DATETIME created_at
         DATETIME modified_at
